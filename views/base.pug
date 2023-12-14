@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title Hogwarts:The school of the Wizards
+    block scripts
+    block style
+      
+  body
+   nav#navbar
+         ul
+            div#logo
+             img(src="/static/logo.png", alt="") 
+             | HOGWARTS
+             li.home #[a(href="/") Home]
+             li.about  #[a(href="/") About]
+             li.services #[a(href="/") Services]
+             li.class #[a(href="/") Class Info]
+             li.contact #[a(href="/contact") Contact Us] 
+  block content
+  
+footer#footer
+    | Copyright © 2023 hogwartsLegacy.org | All rights reserved     

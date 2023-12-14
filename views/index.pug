@@ -1,0 +1,64 @@
+
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+         ul
+            div#logo
+             img(src="/static/logo.png", alt="") 
+             | HOGWARTS
+            li.home #[a(href="/") Home]
+            li.about  #[a(href="/") About]
+            li.services #[a(href="/") Services]
+            li.class #[a(href="/") Class Info]
+            li.contact #[a(href="/") Contact Us] 
+
+  section#intro 
+    div Welcome to the world of Magic and fantasies
+    div In the realm of enchantment
+  
+  section#items
+    h3 Magic items
+    
+    div.card
+     h4 The Resurrection Stone
+     div.card-box
+      div.card-img
+        img(src="/static/stone.jpg")
+        div.card-content
+          p This is the source of rebirth
+
+    div.card
+     h4 Ravenclaw's Diadem
+     div.card-box
+      div.card-img
+        img(src="/static/raven.jpg")
+        div.card-content
+          p Ravenclaw's diadem, lost wisdom sought by seekers
+
+    div.card
+     h4 The Elder Wand
+     div.card-box
+      div.card-img
+        img(src="/static/elder.jpg")
+        div.card-content
+          p the most powerful wand one can get
+
+
+  section#sponsors 
+    h3 Our Sponsors 
+    div#spon
+         img(src="/static/img/amd.jpg", alt="Sponsors image" class="sp")
+         img(src="/static/img/intel.png", alt="Sponsors image" class="sp")
+         img(src="/static/img/logitech.jpg", alt="Sponsors image" class="sp")
+         img(src="/static/img/nevida.png", alt="Sponsors image" class="sp")
+         img(src="/static/img/razer.jpg", alt="Sponsors image" class="sp")
+    
+  footer#footer
+    | Copyright © 2023 hogwartsLegacy.org | All rights reserved
+  
+  script 
+    include ../static/index.js

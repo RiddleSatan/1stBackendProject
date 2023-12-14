@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bruno+Ace+SC&family=Montserrat:ital,wght@0,900;1,800&family=Pangolin&family=Rajdhani:wght@300&family=Roboto+Condensed:wght@300&family=Sedgwick+Ave+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Shadows+Into+Light&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Shadows+Into+Light&display=swap');
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#logo{
+    padding-right:8px ;
+    color:white;
+    display: flex ;
+    align-items: center;
+    margin-left: 10px ;
+    font-family: 'EB Garamond', serif;
+
+}
+#logo img{
+    filter: invert(100%);
+    height: 40px;
+    margin-right: 5px ;
+}
+#navbar {
+    padding: 10px 7px;
+    background-color: black;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bolder;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: aliceblue;
+    padding: 6px 20px;
+}
+
+#navbar li a:hover {
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: cyan;
+    padding: 6px 20px;
+}
+
+#intro {
+    opacity: .83;
+    color: gold;
+    font-family: 'Rock Salt', cursive;
+    flex-direction: column;
+    font-size: 2rem;
+    background: no-repeat center/80% url("/static/mag.jpg");
+    height: 410px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-size: cover;
+}
+
+#items {
+    height: 410px;
+    background-color: white;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.7rem;
+}
+    
+#items h3{
+    text-align: center;
+    padding-top: 12px;
+}
+   
+
+.card{
+    display: inline-block;
+    margin: 10px 63px;
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 70%;
+    width: 25%;
+    
+}
+
+#sponsors {
+    height: 410px;
+    background-color: greenyellow;
+    font-family: 'Shadows Into Light', cursive;
+    /* display: flex; */
+    /* justify-content: center; */
+    font-size: 1.7rem;
+}
+
+#sponsors h3 {
+    text-align: center;
+    padding-top: 12px;
+}
+
+#spon{
+    height: 234px;
+    width: 1200px;
+    margin: auto;
+}
+
+#spon img{
+    height: 137px;
+    width: 154px;
+    margin: 43px;
+}
+
+
+
+h4{
+    text-align: center;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+    
+    
+}
+
+.card-img img{
+    height: inherit; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#footer {
+    display: flex;
+    height: 52px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}

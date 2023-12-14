@@ -1,0 +1,20 @@
+extends base.pug 
+
+block scripts
+  script(src='/static/index.js')
+ 
+block style 
+    style
+      include ../static/style.css
+      include ../static/stylecontact.css
+
+block content
+  h1 Contact Us
+   <form action="/contact" method ="post" id="contact">
+            <input type="text" name="name" id="name" placeholder="Enter your Ducking name">
+            <input type="text" name="age" id="age" placeholder="Enter your Ducking age">
+            <input type="text" name="email" id="email" placeholder="Enter your Ducking Email">
+            <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter your Ducking address"></textarea>
+            <textarea name="more" id="more" cols="30" rows="10" placeholder="Enter your concerns"></textarea>
+            <button class="btn">SUBMIT</button>
+            </form>

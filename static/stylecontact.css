@@ -1,0 +1,29 @@
+h1{
+  text-align: center;
+  margin: 12px 0px;
+}
+
+input, textarea {
+    display:block;
+    padding: 3px;
+    margin: 15px auto;
+    width: 60%;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.btn{
+  
+    border: 2px solid black;
+    padding: 11px 32px;
+    color: white;
+    background-color: rgb(18, 175, 175);
+     transition: all ease 0.4s;
+
+}
+.btn:hover{
+    border-radius: 6px;
+     cursor: pointer;
+    box-shadow: 4px 6px 0px black;
+}
